@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root{
+    --color1:#404040;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-style: var(--color1);
+    width: 1260px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(../img/photo.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 590px;
+}
+.container{
+    width: 950px;
+}
+.navbar{
+    background-color:white;
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.7) 100%);
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.7) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#b3ffffff', GradientType=1);
+    height: 90px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: var(--color1);
+}
+.navbar-nav li{
+    margin-left: 35px;
+    font-size: medium;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+    background-color:#de6d6e;
+    border-radius:5px;
+}
+.btn{
+   color:#404040
+}
+.btn:hover{
+    background-color:#de6d6e;
+    color:white;
+}
+.st_title h1{
+    color: white;
+    margin-top: 280px;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.st_title p{
+    color:white;
+    font-size: 25px;
+}
+.st_lorem h2{
+    margin-top: 65px;
+    font-size: 35px;
+}
+.st_lorem{
+    font-size: 17px;
+}
+.st_tickets, .st_camera, .st_beer, .st_devices{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.st_beer{
+    background-image: url(../img/Beer.png);
+    background-repeat:no-repeat;
+    object-fit: cover;
+    background-position: center 50%;
+    font-size: 12px;
+}
+.st_form p{
+    display: inline-block;
+    height: 90px;
+    width: 150px;
+    margin-top: 40px;
+}
+.st_form img{
+    display: inline-block;
+    height: 76px;
+    margin-top: 52px;
+}
+.st_form .st_tickets p, .st_camera p, .st_devices p{
+    margin-top: 0;
+}
+footer{
+    background-color:#292a24;
+    height: 260px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+a{
+    color: #929292;
+    font-size: 15px;
+    text-decoration: none;
+}
+a:hover{
+    background-color:white;
+    color:black;
+    border-radius:3px;
+}
+.st_social{
+    margin-top: 55px;
+    
+}
+.st_facebook, .st_twitter, .st_veb, .st_share{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #929292;
+}
+.st_facebook{
+    background-image:url(../img/facebook.png);
+    background-repeat:no-repeat;
+    object-fit: cover;
+    background-position: center 50%;
+    margin-right: 27px;
+}
+.st_twitter{
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center 50%;
+    margin-right: 27px;
+}
+.st_veb{
+    background-image: url(../img/veb.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center 50%;
+    margin-right: 27px;
+}
+.st_share{
+    background-image: url(../img/share.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center 50%;
+}
+.st_social a:hover{
+    background-color:white;
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
